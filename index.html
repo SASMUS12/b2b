@@ -5,179 +5,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML5, CSS">
-    <link rel="stylesheet" href="./Pages/index.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
     <meta name="author" content="Александр Васько">
     <title>Document</title>
 </head>
 
 <body>
     <div class="page">
-        <header>
-            <img src="../images/лого.svg" alt="">
-            <div>
-                <img src="../images/image 2.svg" alt="">
-                <h2>Яндекс Карты</h2>
-                <img src="../images/Group 336607.svg" alt="">
-                <h3>5,0</h3>
-                <h3>81 отзыв • 100 оценок</h3>
+        <header class="header">
+            <img class="header__logo" src="../images/лого.svg" alt="Логотип">
+            <img class="header__image" src="../images/image 2.svg" alt="Локация">
+            <div class="header__info">
+                <h2 class="header__title">Яндекс Карты</h2>
+                <img class="header__rating-icon" src="../images/Group 336607.svg" alt="Звездочки">
+                <h3 class="header__rating">5,0</h3>
+                <h3 class="header__reviews">81 отзыв • 100 оценок</h3>
             </div>
-            <h2> Производство кухонь на заказ Анапа, ул. Крылова, д. 27</h2>
-            <ul>
-                <li><a href="https://whatsapp.ru/"></a><img src="../images/whatsapp.svg" alt="Мессенджер WhatsApp"></li>
-                <li><a href="https://telegram.org/"></a><img src="../images/telegram.svg" alt="Мессенджер Telegram">
-                </li>
-                <li><a href="tel:+7(988)-311-77-88">+7 (988)-311-77-88</a></li>
+            <h2 class="header__address"> Производство кухонь на заказ Анапа, ул. Крылова, д. 27</h2>
+            <ul class="header__contacts">
+                <li class="header__contact"><a href="https://whatsapp.ru/"><img src="../images/whatsapp.svg"
+                            alt="Мессенджер WhatsApp"></a></li>
+                <li class="header__contact"><a href="https://telegram.org/"><img src="../images/telegram.svg"
+                            alt="Мессенджер Telegram"></a></li>
+                <li class="header__contact"><a href="tel:+7(988)-311-77-88">+7 (988)-311-77-88</a></li>
             </ul>
-            <button>Заказать звонок</button>
+            <button class="header__call-btn">Заказать звонок</button>
         </header>
-        <main>
-            <section>
-                <h1>Изготовим роскошную дизайнерскую кухню</h1>
-                <div>
-                    <img src="../images/иконка кошелька.svg" alt="Иконка кошелька">
-                    <h2>Цена на 12-24% ниже, чем у посредников</h2>
+        <main class="main">
+            <section class="main__section">
+                <h1 class="main__section-title">Изготовим роскошную дизайнерскую кухню</h1>
+                <div class="main__info">
+                    <img class="main__info-icon" src="../images/иконка кошелька.svg" alt="Иконка кошелька">
+                    <h2 class="main__info-text">Цена на 12-24% ниже, чем у посредников</h2>
                 </div>
-                <div>
-                    <h2>Рассчитаем стоимость кухни-мечты</h2>
-                    <button>Заказать расчёт</button>
-                    <img src="../images/cтрелка.svg" alt="Стрелка">
+                <div class="main__info">
+                    <h2 class="main__info-text">Рассчитаем стоимость кухни-мечты</h2>
+                    <button class="main__info-btn">Заказать расчёт</button>
+                    <img class="main__info-arrow" src="../images/cтрелка.svg" alt="Стрелка">
                 </div>
-                <div>
-                    <img src="../images/btnKRUG.svg" alt="">
-                    <h3>Огромный выбор бытовой техники</h3>
+                <div class="main__info">
+                    <img class="main__info-icon" src="../images/btnKRUG.svg" alt="">
+                    <h3 class="main__info-subtitle">Огромный выбор бытовой техники</h3>
                 </div>
-                <div>
-                    <img src="../images/btnKRUG.svg" alt="">
-                    <h3>Изысканный гарнитур любого размера</h3>
+                <div class="main__info">
+                    <img class="main__info-icon" src="../images/btnKRUG.svg" alt="">
+                    <h3 class="main__info-subtitle">Изысканный гарнитур любого размера</h3>
                 </div>
-                <div>
-                    <img src="../images/btnKRUG.svg" alt="">
-                    <h3>Выдающиеся сорта древесины</h3>
-                </div>
-            </section>
-            <section>
-                <img src="../images/image 48.jpg" alt="Кухня">
-                <div>
-                    <h3>Наши преимущества</h3>
-                    <div></div>
-                </div>
-                <div>
-                    <img src="../images/иконка кухни.svg" alt="Иконка кухни">
-                    <h3>C 2000 г на рынке  наши кухни выбрали 10 000+ семей </h3>
-                </div>
-                <div>
-                    <img src="../images/иконка сроки.svg" alt="Иконка сроки">
-                    <h3>Сжатые сроки  изготовление кухни от 20 дней</h3>
-                </div>
-                <div>
-                    <img src="../images/иконка дизайн проект.svg" alt="Иконка дизайн проект">
-                    <h3>Дизайн проект  бесплатно за 30 минут</h3>
+                <div class="main__info">
+                    <img class="main__info-icon" src="../images/btnKRUG.svg" alt="">
+                    <h3 class="main__info-subtitle">Выдающиеся сорта древесины</h3>
                 </div>
             </section>
-            <section>
-                <h1>Посмотрите наши работы</h1>
-                <div>
+            <section class="main__section">
+                <img class="main__image" src="../images/image 48.jpg" alt="Кухня">
+                <div class="main__advantages">
+                    <h3 class="main__advantages-title">Наши преимущества</h3>
+                    <div class="main__advantages-divider"></div>
+                </div>
+                <div class="main__advantages-item">
+                    <img class="main__advantages-icon" src="../images/иконка кухни.svg" alt="Иконка кухни">
+                    <h3 class="main__advantages-text">C 2000 г на рынке наши кухни выбрали 10 000+ семей </h3>
+                </div>
+                <div class="main__advantages-item">
+                    <img class="main__advantages-icon" src="../images/иконка сроки.svg" alt="Иконка сроки">
+                    <h3 class="main__advantages-text">Сжатые сроки изготовление кухни от 20 дней</h3>
+                </div>
+                <div class="main__advantages-item">
+                    <img class="main__advantages-icon" src="../images/иконка дизайн проект.svg"
+                        alt="Иконка дизайн проект">
+                    <h3 class="main__advantages-text">Дизайн проект бесплатно за 30 минут</h3>
+                </div>
+            </section>
+            <section class="main__section">
+                <h1 class="main__section-title">Посмотрите наши работы</h1>
+                <div class="main__portfolio">
 
                 </div>
-                <div>
-                    <div>
-                        <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                        <div>
-                            <div>
+                <div class="main__portfolio-item">
+                    <div class="main__portfolio-slider">
+                        <img class="main__portfolio-image" src="../images/Rectangle 4381.jpg" alt="Кухня">
+                        <div class="main__portfolio-navigation">
+                            <div class="main__portfolio-counter">
                                 <h3>01 </h3>
                                 <h3>10</h3>
-                                <img src="../images/VectorL.svg" alt="Стрелка влево">
-                                <img src="../images/VectorR.svg" alt="Стрелка вправо">
+                                <img class="main__portfolio-arrow-left" src="../images/VectorL.svg" alt="Стрелка влево">
+                                <img class="main__portfolio-arrow-right" src="../images/VectorR.svg"
+                                    alt="Стрелка вправо">
                             </div>
-                            <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                            <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                            <img src="../images/Rectangle 4381.jpg" alt="Кухня">
+                            <img class="main__portfolio-image" src="../images/Rectangle 4381.jpg" alt="Кухня">
+                            <img class="main__portfolio-image" src="../images/Rectangle 4381.jpg" alt="Кухня">
+                            <img class="main__portfolio-image" src="../images/Rectangle 4381.jpg" alt="Кухня">
                         </div>
                     </div>
-                    <div>
-                        <h3>Кухня 097 минимализм  Угловая белая кухня со столешницей под бетон.</h3>
-                        <h3>Эконом  168 000 р.</h3>
-                        <h3>Стандарт  217 000 р.</h3>
-                        <h3>Премиум 270 000 р.</h3>
-                        <h3>Длина кухни: 4900 мм</h3>
-                        <button>Подробнее</button>
-                        <button>Расчет стоимости</button>                   
-                    </div>                    
-                </div>
-                <div>
-                    <div>
-                        <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                        <div>
-                            <div>
-                                <h3>01 </h3>
-                                <h3>10</h3>
-                                <img src="../images/VectorL.svg" alt="Стрелка влево">
-                                <img src="../images/VectorR.svg" alt="Стрелка вправо">
-                            </div>
-                            <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                            <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                            <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                        </div>
+                    <div class="main__portfolio-details">
+                        <h3 class="main__portfolio-title">Кухня 097 минимализм Угловая белая кухня со столешницей под
+                            бетон.</h3>
+                        <h3 class="main__portfolio-price">Эконом 168 000 р.</h3>
+                        <h3 class="main__portfolio-price">Стандарт 217 000 р.</h3>
+                        <h3 class="main__portfolio-price">Премиум 270 000 р.</h3>
+                        <h3 class="main__portfolio-length">Длина кухни: 4900 мм</h3>
+                        <button class="main__portfolio-btn">Подробнее</button>
+                        <button class="main__portfolio-btn">Расчет стоимости</button>
                     </div>
-                    <div>
-                        <h3>Кухня 097 минимализм  Угловая белая кухня со столешницей под бетон.</h3>
-                        <h3>Эконом  168 000 р.</h3>
-                        <h3>Стандарт  217 000 р.</h3>
-                        <h3>Премиум 270 000 р.</h3>
-                        <h3>Длина кухни: 4900 мм</h3>
-                        <button>Подробнее</button>
-                        <button>Расчет стоимости</button>                   
-                    </div>                    
-                </div>
-                <div>
-                    <div>
-                        <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                        <div>
-                            <div>
-                                <h3>01 </h3>
-                                <h3>10</h3>
-                                <img src="../images/VectorL.svg" alt="Стрелка влево">
-                                <img src="../images/VectorR.svg" alt="Стрелка вправо">
-                            </div>
-                            <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                            <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                            <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                        </div>
-                    </div>
-                    <div>
-                        <h3>Кухня 097 минимализм  Угловая белая кухня со столешницей под бетон.</h3>
-                        <h3>Эконом  168 000 р.</h3>
-                        <h3>Стандарт  217 000 р.</h3>
-                        <h3>Премиум 270 000 р.</h3>
-                        <h3>Длина кухни: 4900 мм</h3>
-                        <button>Подробнее</button>
-                        <button>Расчет стоимости</button>                   
-                    </div>                    
-                </div>
-                <div>
-                    <div>
-                        <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                        <div>
-                            <div>
-                                <h3>01 </h3>
-                                <h3>10</h3>
-                                <img src="../images/VectorL.svg" alt="Стрелка влево">
-                                <img src="../images/VectorR.svg" alt="Стрелка вправо">
-                            </div>
-                            <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                            <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                            <img src="../images/Rectangle 4381.jpg" alt="Кухня">
-                        </div>
-                    </div>
-                    <div>
-                        <h3>Кухня 097 минимализм  Угловая белая кухня со столешницей под бетон.</h3>
-                        <h3>Эконом  168 000 р.</h3>
-                        <h3>Стандарт  217 000 р.</h3>
-                        <h3>Премиум 270 000 р.</h3>
-                        <h3>Длина кухни: 4900 мм</h3>
-                        <button>Подробнее</button>
-                        <button>Расчет стоимости</button>                   
-                    </div>                    
                 </div>
             </section>
         </main>
